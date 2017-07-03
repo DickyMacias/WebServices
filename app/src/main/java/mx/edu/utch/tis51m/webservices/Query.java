@@ -82,6 +82,7 @@ public class Query extends ListActivity {
                                             intento.putExtra("price",priceee[position]);
                                             intento.putExtra("desc",desccc[position]);
                                             startActivity(intento);
+                                            Query.this.finish();
 
                                         }
                                     })
@@ -94,6 +95,7 @@ public class Query extends ListActivity {
                                             intento.putExtra("price",priceee[position]);
                                             intento.putExtra("desc",desccc[position]);
                                             startActivity(intento);
+                                            Query.this.finish();
                                         }
                                     });
                 alertita.show();
